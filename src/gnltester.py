@@ -32,10 +32,9 @@ def test(bufferSize, part):
 		clearLine = False
 		print("---------------------------------------")
 		print("Doesn't work with BUFFER_SIZE=" + str(bufferSize))
-		print("Output:")
+		print("\nOutput:")
 		subprocess.call("cat output.txt", shell=True)
-		print("\n")
-		print("Expected:")
+		print("\nExpected:")
 		subprocess.call("cat txt/good_output.txt", shell=True)
 		print("---------------------------------------\n")
 		errors[part - 1] += 1
