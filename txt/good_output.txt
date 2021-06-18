@@ -1,0 +1,6 @@
+ret gnl : 1	line : coucou$
+ret gnl : 1	line : ceci$
+ret gnl : 1	line : est$
+ret gnl : 1	line : un$
+ret gnl : 1	line : fichier texte$
+ret gnl : 0	line : fichier texte$
