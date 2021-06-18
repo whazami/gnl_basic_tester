@@ -38,6 +38,7 @@ def test(bufferSize, part):
 		subprocess.call("cat txt/good_output.txt", shell=True)
 		print("---------------------------------------\n")
 		errors[part - 1] += 1
+		subprocess.call("rm a.out output.txt", shell=True)
 		return (0)
 	subprocess.call("rm a.out output.txt", shell=True)
 	return (1)
